@@ -11,12 +11,11 @@ public class TheSeventhTask {
             newWordAsArray[j] = wordAsArray[i];
             j++;
         }
+
         String newWord = new String(newWordAsArray);
 
-        if (word.equals(newWord))
-        {
+        if (word.equals(newWord)) {
             System.out.println("Це слово є паліндромом");
-        }
-        else System.out.println("Це слово не є паліндромом");
+        } else System.out.println("Це слово не є паліндромом");
     }
 }
