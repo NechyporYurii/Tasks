@@ -14,6 +14,7 @@ public class TheFifthTask {
         while (m.find()) {
             count++;
         }
-        System.out.println("Кількість появ слова " + word + " в реченні \'" + text + "\' є " + count);
+
+        System.out.println("Кількість появ слова " + word + " в реченні \'" + text + "\'є " + count);
     }
 }
